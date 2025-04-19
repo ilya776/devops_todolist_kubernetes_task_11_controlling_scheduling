@@ -36,7 +36,7 @@ spec:
                       operator: In
                       values:
                         - mysql
-                topologyKey: "kubernetes.io/ilya4809"
+                topologyKey: "kubernetes.io/hostname"
       containers:
       - name: mysql
         image: mysql:8.0
